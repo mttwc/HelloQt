@@ -4,9 +4,9 @@
 #                  = world.h
 
 SOURCES = src/main.cpp \
-          src/cursor_demonstration.cpp \
+          src/button_demonstration.cpp \
 
-HEADERS = src/cursor_demonstration.h
+HEADERS = src/button_demonstration.h
 
 CONFIG -= app_bundle
 
