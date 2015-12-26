@@ -1,16 +1,16 @@
 #include <QApplication>
 #include <QWidget>
+#include "cursor_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    
-    QWidget window;
-    
+
+    CursorDemonstration window;
+
     window.resize(250, 150);
-    window.setWindowTitle("Tooltip");
-    window.setToolTip("QWidget");
+    window.setWindowTitle("Cursor Demonstration");
     window.show();
-    
+
     return app.exec();
 }
