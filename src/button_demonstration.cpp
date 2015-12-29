@@ -9,5 +9,5 @@ ButtonDemonstration::ButtonDemonstration(QWidget *parent)
     QPushButton *quitBtn = new QPushButton("Quit", this);
     quitBtn->setGeometry(50, 40, 75, 30);
     
-    connect(quitBtn, SIGNAL(clicked()), qApp, SLOT(quit()));
+    connect(quitBtn, &QPushButton::clicked, qApp, &QApplication::quit);
 }

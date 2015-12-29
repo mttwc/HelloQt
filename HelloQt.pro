@@ -3,6 +3,8 @@
 #          HEADERS = hello.h \
 #                  = world.h
 
+QT += widgets
+
 SOURCES = src/main.cpp \
           src/button_demonstration.cpp \
 

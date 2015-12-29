@@ -1,3 +1,4 @@
 bin/
 generated_files/
 Makefile
+.qmake.stash
