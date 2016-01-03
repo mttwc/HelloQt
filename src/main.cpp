@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "vertical_box_demonstration.h"
+#include "button_layout_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    VerticalBoxDemonstration window;
+    ButtonLayoutDemonstration window;
 
     window.resize(250, 150);
-    window.setWindowTitle("VerticalBox Demonstration");
+    window.setWindowTitle("Button Layout Demonstration");
     window.show();
 
     return app.exec();

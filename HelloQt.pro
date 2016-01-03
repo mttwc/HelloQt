@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/vertical_box_demonstration.cpp \
+          src/button_layout_demonstration.cpp \
 
-HEADERS = src/vertical_box_demonstration.h
+HEADERS = src/button_layout_demonstration.h
 
 CONFIG -= app_bundle
 
