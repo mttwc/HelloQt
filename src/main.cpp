@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "plus_minus_demonstration.h"
+#include "simple_menu_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    PlusMinusDemonstration window;
+    SimpleMenuDemonstration window;
 
     window.resize(250, 150);
-    window.setWindowTitle("PlusMinus Demonstration");
+    window.setWindowTitle("SimpleMenu Demonstration");
     window.show();
 
     return app.exec();

@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/plus_minus_demonstration.cpp \
+          src/simple_menu_demonstration.cpp \
 
-HEADERS = src/plus_minus_demonstration.h
+HEADERS = src/simple_menu_demonstration.h
 
 CONFIG -= app_bundle
 
