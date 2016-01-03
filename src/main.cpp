@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "simple_menu_demonstration.h"
+#include "vertical_box_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    SimpleMenuDemonstration window;
+    VerticalBoxDemonstration window;
 
     window.resize(250, 150);
-    window.setWindowTitle("SimpleMenu Demonstration");
+    window.setWindowTitle("VerticalBox Demonstration");
     window.show();
 
     return app.exec();
