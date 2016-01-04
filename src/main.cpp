@@ -1,15 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "button_layout_demonstration.h"
+#include "nesting_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    ButtonLayoutDemonstration window;
+    NestingDemonstration window;
 
-    window.resize(250, 150);
-    window.setWindowTitle("Button Layout Demonstration");
+    window.setWindowTitle("Nesting Layout Demonstration");
     window.show();
 
     return app.exec();
