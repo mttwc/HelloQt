@@ -1,14 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "nesting_demonstration.h"
+#include "form_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    NestingDemonstration window;
+    FormDemonstration window;
 
-    window.setWindowTitle("Nesting Layout Demonstration");
+    window.setWindowTitle("Form Layout Demonstration");
     window.show();
 
     return app.exec();

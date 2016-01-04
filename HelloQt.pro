@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/nesting_demonstration.cpp \
+          src/form_demonstration.cpp \
 
-HEADERS = src/nesting_demonstration.h
+HEADERS = src/form_demonstration.h
 
 CONFIG -= app_bundle
 
