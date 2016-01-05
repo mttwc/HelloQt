@@ -1,14 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "form_demonstration.h"
+#include "key_press_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    FormDemonstration window;
+    KeyPressDemonstration window;
 
-    window.setWindowTitle("Form Layout Demonstration");
+    window.resize(250, 150);
+    window.setWindowTitle("Key Press Demonstration");
     window.show();
 
     return app.exec();
