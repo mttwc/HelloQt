@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "key_press_demonstration.h"
+#include "move_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    KeyPressDemonstration window;
+    MoveDemonstration window;
 
     window.resize(250, 150);
-    window.setWindowTitle("Key Press Demonstration");
+    window.setWindowTitle("Move Event Demonstration");
     window.show();
 
     return app.exec();
