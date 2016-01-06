@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/disconnect_demonstration.cpp \
+          src/timer_demonstration.cpp \
 
-HEADERS = src/disconnect_demonstration.h
+HEADERS = src/timer_demonstration.h
 
 CONFIG -= app_bundle
 

@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "disconnect_demonstration.h"
+#include "timer_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    DisconnectDemonstration window;
+    TimerDemonstration window;
 
     window.resize(250, 150);
-    window.setWindowTitle("Disconnect Demonstration");
+    window.setWindowTitle("Timer Demonstration");
     window.show();
 
     return app.exec();
