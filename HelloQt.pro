@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/move_demonstration.cpp \
+          src/disconnect_demonstration.cpp \
 
-HEADERS = src/move_demonstration.h
+HEADERS = src/disconnect_demonstration.h
 
 CONFIG -= app_bundle
 
