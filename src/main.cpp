@@ -1,14 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "label_demonstration.h"
+#include "slider_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    LabelDemonstration window;
+    SliderDemonstration window;
 
-    window.setWindowTitle("Label Demonstration");
+    window.setWindowTitle("Slider Demonstration");
     window.show();
 
     return app.exec();
