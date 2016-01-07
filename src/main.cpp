@@ -1,14 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "line_edit_demonstration.h"
+#include "status_bar_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    LineEditDemonstration window;
+    StatusBarDemonstration window;
 
-    window.setWindowTitle("Line Edit Demonstration");
+    window.resize(300, 200);
+    window.setWindowTitle("Status Bar Demonstration");
     window.show();
 
     return app.exec();
