@@ -6,11 +6,12 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/slider_demonstration.cpp \
+          src/combo_box_demonstration.cpp \
 
-HEADERS = src/slider_demonstration.h
+HEADERS = src/combo_box_demonstration.h
 
 CONFIG -= app_bundle
+CONFIG += c++11
 
 DESTDIR = bin
 OBJECTS_DIR = generated_files

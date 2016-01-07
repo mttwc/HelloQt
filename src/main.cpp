@@ -1,14 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "slider_demonstration.h"
+#include "combo_box_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    SliderDemonstration window;
+    ComboBoxDemonstration window;
 
-    window.setWindowTitle("Slider Demonstration");
+    window.setWindowTitle("Combo Box Demonstration");
     window.show();
 
     return app.exec();
