@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/combo_box_demonstration.cpp \
+          src/spin_box_demonstration.cpp \
 
-HEADERS = src/combo_box_demonstration.h
+HEADERS = src/spin_box_demonstration.h
 
 CONFIG -= app_bundle
 CONFIG += c++11

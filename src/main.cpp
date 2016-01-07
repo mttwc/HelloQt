@@ -1,14 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "combo_box_demonstration.h"
+#include "spin_box_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    ComboBoxDemonstration window;
+    SpinBoxDemonstration window;
 
-    window.setWindowTitle("Combo Box Demonstration");
+    window.setWindowTitle("Spin Box Demonstration");
     window.show();
 
     return app.exec();
