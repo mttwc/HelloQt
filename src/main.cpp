@@ -1,14 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "spin_box_demonstration.h"
+#include "line_edit_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    SpinBoxDemonstration window;
+    LineEditDemonstration window;
 
-    window.setWindowTitle("Spin Box Demonstration");
+    window.setWindowTitle("Line Edit Demonstration");
     window.show();
 
     return app.exec();
