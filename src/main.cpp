@@ -1,15 +1,14 @@
 #include <QApplication>
 #include <QWidget>
-#include "status_bar_demonstration.h"
+#include "list_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    StatusBarDemonstration window;
+    ListDemonstration window;
 
-    window.resize(300, 200);
-    window.setWindowTitle("Status Bar Demonstration");
+    window.setWindowTitle("List Demonstration");
     window.show();
 
     return app.exec();

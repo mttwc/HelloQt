@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/status_bar_demonstration.cpp \
+          src/list_demonstration.cpp \
 
-HEADERS = src/status_bar_demonstration.h
+HEADERS = src/list_demonstration.h
 
 CONFIG -= app_bundle
 CONFIG += c++11
