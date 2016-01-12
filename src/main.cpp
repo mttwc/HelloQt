@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "progress_bar_demonstration.h"
+#include "splitter_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    ProgressBarDemonstration window;
+    SplitterDemonstration window;
     
-    window.resize(250, 150);
-    window.setWindowTitle("Progress Bar Demonstration");
+    window.resize(350, 300);
+    window.setWindowTitle("Splitter Demonstration");
     window.show();
 
     return app.exec();
