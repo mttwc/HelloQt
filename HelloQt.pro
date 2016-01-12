@@ -6,9 +6,9 @@
 QT += widgets
 
 SOURCES = src/main.cpp \
-          src/splitter_demonstration.cpp \
+          src/table_demonstration.cpp \
 
-HEADERS = src/splitter_demonstration.h
+HEADERS = src/table_demonstration.h
 
 CONFIG -= app_bundle
 CONFIG += c++11
