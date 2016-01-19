@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <QWidget>
-#include "table_demonstration.h"
+#include "line_demonstration.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    TableDemonstration window;
+    LineDemonstration window;
     
-    window.resize(400, 250);
-    window.setWindowTitle("Table Demonstration");
+    window.resize(280, 270);
+    window.setWindowTitle("Line Demonstration");
     window.show();
 
     return app.exec();
